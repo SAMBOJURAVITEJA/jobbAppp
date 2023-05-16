@@ -1,0 +1,13 @@
+.filtersContainer {
+  font-weight: bold;
+  font-family: 'Roboto';
+  width: 30%;
+  padding: 10px;
+}
+.ul {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  list-style-type: none;
+  padding-left: 0px;
+}

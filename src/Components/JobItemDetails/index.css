@@ -1,0 +1,83 @@
+.descriptionContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.bg-container {
+  min-height: 100vh;
+  font-weight: bold;
+  font-family: 'Roboto';
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+.imgContentContainer {
+  display: flex;
+  padding: 10px;
+}
+.companyDescription {
+  width: 50%;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.companyWorkingImage {
+  width: 200px;
+}
+.skillsListContainer {
+  padding-left: 0px;
+  list-style-type: none;
+  font-weight: bold;
+  font-family: 'Roboto';
+  padding: 20px;
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+}
+.skillListItem {
+  margin-right: 40px;
+}
+
+.similarJobsContainer {
+  flex-wrap: wrap;
+  font-weight: bold;
+  font-family: 'Roboto';
+  display: flex;
+  width: 90%;
+  margin-left: 60px;
+}
+.similarJobsListItem {
+  margin-bottom: 10px;
+}
+.similarHeading {
+  padding-left: 60px;
+}
+.similarJobsListItem {
+  background-color: #272727;
+  padding: 10px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+}
+.contentAboutLife {
+  font-weight: bold;
+  font-family: 'Roboto';
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  color: #ffffff;
+}
+.anchor {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.cardContainer {
+  width: 90%;
+  padding: 20px;
+  background-color: #272727;
+  border-radius: 8px;
+  padding: 20px;
+  align-self: center;
+}
